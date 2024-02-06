@@ -42,8 +42,6 @@ body {
     height: auto;
     margin-bottom: 3%;
     box-shadow: 0px 8px 5px 1px rgba(219, 219, 219, 0.48);
-    -webkit-box-shadow: 0px 8px 5px 1px rgba(219, 219, 219, 0.48);
-    -moz-box-shadow: 0px 8px 5px 1px rgba(219, 219, 219, 0.48); 
 }
 .answer {
     display: none;
@@ -64,7 +62,6 @@ body {
     width: 2.5rem;
     height: 2.5rem;
     padding: 0.9rem;
-
 }
 .fa-minus {
     color: #fff;
@@ -76,7 +73,7 @@ body {
     height: 2.5rem;
     padding: 0.9rem;
   }
-  .hide {
+.hide {
     display: none;
-  }
+}
  
