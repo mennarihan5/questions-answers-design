@@ -1,12 +1,12 @@
 const questionAnswers = document.querySelectorAll(".question-answer");
 const container = document.querySelector(".container");
-
-questionAnswers.forEach((questionAnswer) => {
-    const question = questionAnswer.querySelector(".question");
-    const answer = questionAnswer.querySelector(".answer");
-    const iconPlus = questionAnswer.querySelector(".fa-plus");
-    const iconMinus = questionAnswer.querySelector(".fa-minus");
+const question = document.querySelector(".question");
+const answer = document.querySelector(".answer");
+const iconPlus = document.querySelector(".fa-plus");
+const iconMinus = document.querySelector(".fa-minus");
     
+
+for (let question of questionAnswers) {
     question.addEventListener("click", clicked);
     question.addEventListener("click", answerStyle);
 
@@ -20,7 +20,7 @@ questionAnswers.forEach((questionAnswer) => {
     function answerStyle() {
         answer.style.paddingBottom = "1rem";
     }
-});
+}
 
 
 
